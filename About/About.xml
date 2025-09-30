@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>DDK's Biotech Expansion patch</name>
+    <author>DDK</author>
+    <url></url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+    <packageId>ddk.bep</packageId>
+    <description>Adds support for Biotech Expansion genes when facehugging animals. 
+Art by: ChatGPT
+v0.0.1
+Note: Marked incombatable with VRE: Insectors just in case their genes break something but will probably function just fine. 
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>niz.xenomorphtype</packageId>
+            <displayname>Alien | Rimworld</displayname>
+            <downloadUrl>https://github.com/nighzmarquls/Alien-Rimworld</downloadUrl>
+        </li>
+        <li>
+            <packageId>biotexpans.insect</packageId>
+            <displayname>Biotech Expansion - Insectoid</displayname>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3219625470</steamWorkshopUrl>
+        </li>
+      <li>
+            <packageId>biotexpans.core</packageId>
+            <displayname>Biotech Expansion - Core</displayname>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2884018485</steamWorkshopUrl>
+        </li>
+      <li>
+            <packageId>biotexpans.mammalia</packageId>
+            <displayname>Biotech Expansion - Mammalia</displayname>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2878084431</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+        <loadAfter>
+            <li>biotexpans.core</li>
+            <li>biotexpans.mammalia</li>
+            <li>biotexpans.insect</li>
+            <li>niz.xenomorphtype</li>
+        </loadAfter>
+    <incompatibleWith>
+        <li>vanillaracesexpanded.insector</li>
+    </incompatibleWith>
+</ModMetaData>
