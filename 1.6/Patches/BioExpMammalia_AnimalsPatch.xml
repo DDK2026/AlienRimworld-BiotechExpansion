@@ -1,0 +1,50 @@
+Muff<?xml version="1.0" encoding="utf-8"?>
+  <Patch>
+    <!-- Mammal genes -->
+
+    <!-- Deer -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Ibex" or defName="Deer" or defName="Gazelle" or defName="Elk" or defName="Moose"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_HeavyHooves</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Antlers</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_CervineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Small</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Rodents -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Chinchilla" or defName="Boomrat" or defName="Capybara" or defName="GuineaPig" or defName="Rat" or defName="WasteRat" or defName="Alphabeaver"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_RatEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Rat</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SensitiveWhiskers</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Lupine -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="ArcticFox" or defName="ArcticWolf" or defName="FennecFox" or defName="YorkshireTerrier" or defName="LabradorRetriever" or defName="Husky" or defName ="RedFox" or defName="TimberWolf" or defName="BogHound]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Vulpine</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_VulpineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SharpClaws</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  </Patch>
+
+  
