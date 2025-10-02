@@ -33,7 +33,7 @@
 
     <!-- Lupine -->
     <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="ArcticFox" or defName="Wolf_Arctic" or defName="FennecFox" or defName="YorkshireTerrier" or defName="LabradorRetriever" or defName="Husky" or defName="RedFox" or defName="Wolf_Timber" or defName="BogHound" or Wolf_Great]</xpath>
+     <xpath>Defs/ThingDef[defName="ArcticFox" or defName="Wolf_Arctic" or defName="FennecFox" or defName="YorkshireTerrier" or defName="LabradorRetriever" or defName="Husky" or defName="RedFox" or defName="Wolf_Timber" or defName="BogHound" or defName="Wolf_Great"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
