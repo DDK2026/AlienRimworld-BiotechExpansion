@@ -1,4 +1,4 @@
-Muff<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
   <Patch>
     <!-- Mammal genes -->
 
@@ -19,7 +19,7 @@ Muff<?xml version="1.0" encoding="utf-8"?>
 
     <!-- Rodents -->
     <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Chinchilla" or defName="Boomrat" or defName="Capybara" or defName="GuineaPig" or defName="Rat" or defName="WasteRat" or defName="Alphabeaver"]</xpath>
+     <xpath>Defs/ThingDef[defName="Chinchilla" or defName="Boomrat" or defName="Capybara" or defName="GuineaPig" or defName="Rat" or defName="WasteRat" or defName="Alphabeaver" or defName="Megavole" or defName="Mink"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
@@ -40,11 +40,112 @@ Muff<?xml version="1.0" encoding="utf-8"?>
            <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Vulpine</li>
            <li MayRequire="biotexpans.mammalia">BTEMa_VulpineEars</li>
            <li MayRequire="biotexpans.mammalia">BTEMa_SharpClaws</li>
+           <li MayRequire="biotexpans.core">BTE_FeralMight</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_ElongatedFangs</li>
          </genes>
        </li>
      </value>
    </Operation>
 
-  </Patch>
+    <!-- Elephant/Mastodon -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Elephant" or defName="Mastodon"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_ElephantEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_TailElephant</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_ElephantMemory</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_HeavyHooves</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
 
-  
+    <!-- Sheep -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Sheep" or defName="Mastodon"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SheepEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_RapidCoatGrowth</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Cow -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Cow" or defName="Mastodon"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_BovineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SheepEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_RapidCoatGrowth</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Goat -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Goat"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SheepEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Antlers</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_HeavyHooves</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Horses -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Alpaca" or defName="Horse" or defName="Donkey" or defName="Dromedary"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_CervineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_HeavyHooves</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Small</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Feline -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Cat" or defName="Cougar" or defName="Panther" or defName="Warg" or defName="Badger" or defName="ScimitarCat" or defName="Tiger" or defName="Wolverine"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_Tail_Vulpine</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_VulpineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SharpClaws</li>
+           <li MayRequire="biotexpans.core">BTE_FeralMight</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_ElongatedFangs</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- lopes -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Boomalope" or defName="Toxalope"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_BovineEars</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SmokeExhaust</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+
+    
+  </Patch>
