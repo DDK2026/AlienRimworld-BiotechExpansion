@@ -33,7 +33,7 @@
 
     <!-- Lupine -->
     <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="ArcticFox" or defName="ArcticWolf" or defName="FennecFox" or defName="YorkshireTerrier" or defName="LabradorRetriever" or defName="Husky" or defName="RedFox" or defName="TimberWolf" or defName="BogHound"]</xpath>
+     <xpath>Defs/ThingDef[defName="ArcticFox" or defName="Wolf_Arctic" or defName="FennecFox" or defName="YorkshireTerrier" or defName="LabradorRetriever" or defName="Husky" or defName="RedFox" or defName="Wolf_Timber" or defName="BogHound" or Wolf_Great]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
@@ -83,7 +83,7 @@
          <genes>
            <li MayRequire="biotexpans.mammalia">BTEMa_BovineEars</li>
            <li MayRequire="biotexpans.mammalia">BTEMa_SheepEars</li>
-           <li MayRequire="biotexpans.mammalia">BTEMa_RapidCoatGrowth</li>
+           <li MayRequire="biotexpans.mammalia">BTEMa_HeavyHooves</li>
          </genes>
        </li>
      </value>
@@ -133,7 +133,7 @@
      </value>
    </Operation>
 
-    <!-- lopes -->
+    <!-- Lopes -->
     <Operation Class="PatchOperationAddModExtension">
      <xpath>Defs/ThingDef[defName="Boomalope" or defName="Toxalope"]</xpath>
      <value>
@@ -141,6 +141,19 @@
          <genes>
            <li MayRequire="biotexpans.mammalia">BTEMa_BovineEars</li>
            <li MayRequire="biotexpans.mammalia">BTEMa_SmokeExhaust</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Bears -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Bear_Grizzly" or defName="Bear_Polar"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.mammalia">BTEMa_SharpClaws</li>
+           <li MayRequire="biotexpans.core">BTE_FeralMight</li>
          </genes>
        </li>
      </value>
