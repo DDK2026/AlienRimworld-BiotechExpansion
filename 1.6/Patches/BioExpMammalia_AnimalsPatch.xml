@@ -119,7 +119,7 @@
 
     <!-- Feline -->
     <Operation Class="PatchOperationAddModExtension">
-     <xpath>Defs/ThingDef[defName="Cat" or defName="Cougar" or defName="Panther" or defName="Warg" or defName="Badger" or defName="ScimitarCat" or defName="Tiger" or defName="Wolverine"]</xpath>
+     <xpath>Defs/ThingDef[defName="Cat" or defName="Cougar" or defName="Panther" or defName="Warg" or defName="Badger" or defName="Cat_Scimitar" or defName="Tiger" or defName="Wolverine"]</xpath>
      <value>
        <li Class="Xenomorphtype.AnimalHostGenes">
          <genes>
