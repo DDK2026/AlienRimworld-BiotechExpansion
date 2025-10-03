@@ -9,7 +9,6 @@
     <packageId>ddk.bep</packageId>
     <description>Adds support for Biotech Expansion genes when facehugging animals. 
 v0.0.1
-Note: Marked incombatable with VRE: Insectors just in case their genes break something but will probably function just fine. 
     </description>
     <modDependencies>
         <li>
@@ -40,6 +39,5 @@ Note: Marked incombatable with VRE: Insectors just in case their genes break som
             <li>niz.xenomorphtype</li>
         </loadAfter>
     <incompatibleWith>
-        <li>vanillaracesexpanded.insector</li>
     </incompatibleWith>
 </ModMetaData>
