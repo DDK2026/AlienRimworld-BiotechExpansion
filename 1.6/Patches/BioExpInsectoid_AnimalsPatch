@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <Patch>
+    <!-- Insectoid genes -->
+
+    <!-- Megascarab 
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Megascarab"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+
+         </genes>
+       </li>
+     </value>
+   </Operation>  -->
+
+    <!-- Spelopede -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Spelopede"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.insect">BTEIst_SpelopedeTail</li>
+           <li MayRequire="biotexpans.insect">BTEIst_SpelopedeSkin</li>
+           <li MayRequire="biotexpans.insect">BTEIst_ToxicStingerLauncher</li>
+           <li MayRequire="biotexpans.insect">BTEIst_HardenedChitin</li>
+           <li MayRequire="biotexpans.insect">BTEIst_RapidEater</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AptitudeRemarkable_Mining</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- Megaspider -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="Megaspider"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.insect">BTEIst_MegaspiderTail</li>
+           <li MayRequire="biotexpans.insect">BTEIst_MegaspiderSkin</li>
+           <li MayRequire="biotexpans.core">BTE_FeralMight</li>
+           <li MayRequire="biotexpans.insect">BTEIst_HardenedChitin</li>
+           <li MayRequire="biotexpans.insect">BTEIst_ToxSmog</li>
+           <li MayRequire="biotexpans.insect">BTEIst_ToxicStingerLauncher</li>
+           <li MayRequire="biotexpans.insect">BTEIst_RapidEater</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Robust</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Pain_Reduced</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MeleeDamage_Strong</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+    <!-- HiveQueen -->
+    <Operation Class="PatchOperationAddModExtension">
+     <xpath>Defs/ThingDef[defName="HiveQueen"]</xpath>
+     <value>
+       <li Class="Xenomorphtype.AnimalHostGenes">
+         <genes>
+           <li MayRequire="biotexpans.insect">BTEIst_TameInsectoid</li>
+           <li MayRequire="biotexpans.insect">BTEIst_InjectInsectoidEgg</li>
+           <li MayRequire="biotexpans.insect">BTEIst_ToxicStingerLauncher</li>
+           <li MayRequire="biotexpans.insect">BTEIst_HardenedChitin</li>
+           <li MayRequire="biotexpans.insect">BTEIst_HiveQueenTail</li>
+           <li MayRequire="biotexpans.insect">BTEIst_HiveQueenSkin</li>
+           <li MayRequire="biotexpans.insect">BTEIst_EggSpewer</li>
+           <li MayRequire="biotexpans.insect">BTEIst_RapidEater</li>
+           <li MayRequire="biotexpans.insect">BTEIst_ToxSmog</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AptitudeRemarkable_Social</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">AptitudeRemarkable_Animals</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">PsychicAbility_Extreme</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">MoveSpeed_Slow</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">Robust</li>
+					<li MayRequire="Ludeon.RimWorld.Biotech">FireWeakness</li>
+         </genes>
+       </li>
+     </value>
+   </Operation>
+
+  </Patch>
