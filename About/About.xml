@@ -13,22 +13,22 @@ v0.0.1
     <modDependencies>
         <li>
             <packageId>niz.xenomorphtype</packageId>
-            <displayname>Alien | Rimworld</displayname>
+            <displayName>Alien | Rimworld</displayName>
             <downloadUrl>https://github.com/nighzmarquls/Alien-Rimworld</downloadUrl>
         </li>
         <li>
             <packageId>biotexpans.insect</packageId>
-            <displayname>Biotech Expansion - Insectoid</displayname>
+            <displayName>Biotech Expansion - Insectoid</displayName>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3219625470</steamWorkshopUrl>
         </li>
       <li>
             <packageId>biotexpans.core</packageId>
-            <displayname>Biotech Expansion - Core</displayname>
+            <displayName>Biotech Expansion - Core</displayName>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2884018485</steamWorkshopUrl>
         </li>
       <li>
             <packageId>biotexpans.mammalia</packageId>
-            <displayname>Biotech Expansion - Mammalia</displayname>
+            <displayName>Biotech Expansion - Mammalia</displayName>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2878084431</steamWorkshopUrl>
         </li>
     </modDependencies>
